@@ -5,7 +5,7 @@ from random import randint
 
 INT_MIN = 1
 INT_MAX = 50000
-LEN_TEXT = 246
+LEN_TEXT = 247
 
 # helper function
 def usage(): 
@@ -17,9 +17,10 @@ def generate_random_integer(lower=INT_MIN, upper=INT_MAX):
     return randint(lower, upper)
 
 def generate_random_text(length=LEN_TEXT):
-    chars = [ chr(randint(40,126)) for i in range(length) ]
+    chars = [ chr(randint(48,90)) for i in range(length) ]
     result = "".join(chars)
-    result = result.replace("\n", "\r")
+    result = result.replace("\n", "n")
+    result = result.replace(",", "c")
     result = result.replace('''"''', "'")
     return result
 
@@ -43,9 +44,9 @@ def random_generate(v1fout, v2fout, num_rows):
         v2string = ",".join(quote(val) for val in v2instance)
         # write to out file
         v1fout.write(v1string) 
-        v1fout.write("\n")
+        v1fout.write("\r\n")
         v2fout.write(v2string)
-        v2fout.write("\n")
+        v2fout.write("\r\n")
         # update v1key
         v1key += 1
 
