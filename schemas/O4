@@ -1,0 +1,8 @@
+CREATE TABLE benchmark (
+    theKey INTEGER PRIMARY KEY,
+    columnA INTEGER,
+    columnB INTEGER,
+    filler CHAR(247)
+);
+CREATE INDEX colA ON benchmark(columnA);
+CREATE INDEX colB ON benchmark(columnB);

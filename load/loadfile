@@ -1,0 +1,1 @@
+LOAD DATA INFILE '../generator/1kv1' INTO TABLE benchmark

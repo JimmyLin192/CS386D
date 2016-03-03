@@ -1,0 +1,6 @@
+CREATE TABLE benchmark (
+    theKey INTEGER PRIMARY KEY,
+    columnA INTEGER,
+    columnB INTEGER,
+    filler CHAR(247)
+);
