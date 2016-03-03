@@ -1,0 +1,2 @@
+SELECT * FROM benchmark
+WHERE benchmark.columnB = 25000
