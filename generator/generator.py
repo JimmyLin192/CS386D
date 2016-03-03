@@ -5,7 +5,7 @@ from random import randint
 
 INT_MIN = 1
 INT_MAX = 50000
-LEN_TEXT = 247
+LEN_TEXT = 246
 
 # helper function
 def usage(): 
@@ -17,7 +17,7 @@ def generate_random_integer(lower=INT_MIN, upper=INT_MAX):
     return randint(lower, upper)
 
 def generate_random_text(length=LEN_TEXT):
-    chars = [ chr(randint(1,255)) for i in range(length) ]
+    chars = [ chr(randint(40,126)) for i in range(length) ]
     result = "".join(chars)
     result = result.replace("\n", "\r")
     result = result.replace('''"''', "'")
