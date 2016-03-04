@@ -1,0 +1,1 @@
+sELECT * FROM benchmark WHERE benchmark.columnA = 5000 AND benchmark.columnB = 5000
