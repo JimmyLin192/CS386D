@@ -1,0 +1,47 @@
+use O1V2;
+SELECT * FROM benchmark WHERE benchmark.columnA = 1;
+SELECT * FROM benchmark WHERE benchmark.columnA = 5000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 10000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 15000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 20000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 25000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 30000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 35000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 40000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 45000;
+
+use O2V2;
+SELECT * FROM benchmark WHERE benchmark.columnA = 1;
+SELECT * FROM benchmark WHERE benchmark.columnA = 5000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 10000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 15000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 20000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 25000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 30000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 35000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 40000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 45000;
+
+use O3V2;
+SELECT * FROM benchmark WHERE benchmark.columnA = 1;
+SELECT * FROM benchmark WHERE benchmark.columnA = 5000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 10000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 15000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 20000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 25000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 30000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 35000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 40000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 45000;
+
+use O4V2;
+SELECT * FROM benchmark WHERE benchmark.columnA = 1;
+SELECT * FROM benchmark WHERE benchmark.columnA = 5000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 10000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 15000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 20000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 25000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 30000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 35000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 40000;
+SELECT * FROM benchmark WHERE benchmark.columnA = 45000;
